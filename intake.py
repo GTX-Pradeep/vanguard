@@ -56,7 +56,7 @@ def render_intake_form(saved_profile: dict = None) -> dict:
             github = st.text_input(
                 "GitHub Username *",
                 value=saved.get("github_username", ""),
-                placeholder="GTX-Pradeep",
+                placeholder="",
                 help="We'll read your actual repositories to detect real skills"
             )
             cgpa = st.number_input(
