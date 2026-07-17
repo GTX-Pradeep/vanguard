@@ -384,7 +384,7 @@ if not st.session_state.logged_in:
 <div style="color:#475569;font-size:0.88rem;margin-bottom:2rem">
   Autonomous Placement Intelligence Agent</div>
 """, unsafe_allow_html=True)
-        name_in  = st.text_input("Your Name",  placeholder="Pradeep T")
+        name_in  = st.text_input("Your Name",  placeholder="John Doe")
         email_in = st.text_input("Email",       placeholder="you@pes.edu")
         c1, c2   = st.columns(2)
         with c1:
