@@ -1,4 +1,3 @@
-action_msgs==2.4.5
 action_tutorials_py==0.37.8
 altair==6.2.2
 ament_cmake_test==2.8.7
